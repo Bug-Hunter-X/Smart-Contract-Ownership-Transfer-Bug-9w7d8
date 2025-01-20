@@ -1,0 +1,1 @@
+This repository contains a Solidity smart contract with a bug in its ownership transfer function. The bug occurs when a transaction fails during the ownership transfer process. The _owner variable is updated before the transaction is confirmed, leading to an inconsistent state if the transaction fails. A solution is provided to address this issue.
